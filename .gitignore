@@ -1,0 +1,7 @@
+# Temporary & OS files
+.DS_Store
+Thumbs.db
+chrome_user_data/
+node_modules/
+output/
+*.log

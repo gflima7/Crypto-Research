@@ -1,0 +1,42 @@
+/* Print & Export Layout Rules for Single Page PDF and 4-Card Burst Exports */
+.print-header-repeat {
+  display: none;
+}
+
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 6mm;
+  }
+  
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-size: 9pt;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-card-break {
+    page-break-before: always !important;
+    break-before: page !important;
+  }
+
+  .print-header-repeat {
+    display: block !important;
+  }
+
+  .border-crisp, 
+  .border-crisp-dark, 
+  .border-crisp-heavy {
+    border-color: #000000 !important;
+  }
+
+  .bg-slate-900, 
+  .bg-slate-950 {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+  }
+}

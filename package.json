@@ -1,0 +1,16 @@
+{
+  "name": "the-trade-cat-cftc-gex-tear-sheet",
+  "version": "1.0.0",
+  "description": "Institutional CFTC Positioning & Dealer Options GEX Exposure Tear Sheet",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "news": "node news.js",
+    "export": "node export.js",
+    "report": "node news.js && node export.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^22.0.0"
+  }
+}

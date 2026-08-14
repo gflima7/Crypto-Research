@@ -1,0 +1,40 @@
+/* Strict Institutional Sharp-Corner Design System */
+* {
+  border-radius: 0 !important;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #0f172a;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Professional Subtle Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border: 1px solid #94a3b8;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Crisp Institutional Borders */
+.border-crisp {
+  border: 1px solid #cbd5e1;
+}
+.border-crisp-dark {
+  border: 1px solid #0f172a;
+}
+.border-crisp-heavy {
+  border: 2px solid #0f172a;
+}

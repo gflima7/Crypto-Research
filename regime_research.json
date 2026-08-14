@@ -1,0 +1,23 @@
+{
+  "regime_title": "Regulatory Clarity vs. Fed Rate Uncertainty",
+  "summary": "The market is caught between significant regulatory advancements (SEC/OCC) and persistent uncertainty regarding the Federal Reserve's interest rate path.",
+  "key_drivers": [
+    {
+      "title": "Federal Reserve Policy & Macro Headwinds",
+      "description": "Focus remains on inflation control and growth restraint, with hawkish sentiment suggesting potential rate hikes or sustained high rates (Hammack/WSJ)."
+    },
+    {
+      "title": "Regulatory Infrastructure Buildout",
+      "description": "The SEC is actively advancing rules for 24/7 trading and clearing crypto assets, while the OCC facilitates banking integration, signaling institutional adoption."
+    },
+    {
+      "title": "Institutional Access & Political Support",
+      "description": "High-level political engagement (White House) combined with specific industry filings (Knicks/NBA) suggests strong capital flow and mainstream acceptance."
+    }
+  ],
+  "invalidation_triggers": [
+    "A sudden, aggressive dovish pivot from the Fed that devalues risk assets.",
+    "Regulatory fragmentation or conflicting rulings among SEC, OCC, and state bodies.",
+    "Significant geopolitical shock leading to flight-to-safety assets (e.g., gold/Treasuries) over crypto."
+  ]
+}
